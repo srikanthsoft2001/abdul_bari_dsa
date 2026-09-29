@@ -38,6 +38,7 @@ int main()
 
 /*
 Understanding the Structures
+----------------------------
 1. Sturcutes are the collection of the Dissimilar Data members/ User defined Data Structures.
 2. Defination (doesn't consume any Memory), Inititalization/Varible creation, Accessing the Structure members, size of the variable(should be calculated)
 3. Syntax
@@ -45,4 +46,8 @@ Structure StructName{
 datatype MemberName;
 }
 struct StrcutureName variableName = --initialization--
+4. Padding of Memory
+5. checking the memory consumption
+6. global variable declaration along with the structure defination.
+
 */
