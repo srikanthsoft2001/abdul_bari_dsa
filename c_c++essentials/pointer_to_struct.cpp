@@ -20,7 +20,7 @@ int main()
     cout << p->length << endl;
     cout << p->bredth << endl;
 
-    // creating a rectangle in a heap memory
+    // creating a rectangle object in a heap memory
     // pointer creating in a stack
     Rectangle *n = (struct Rectangle *)malloc(sizeof(struct Rectangle));
     n->length = 100;
