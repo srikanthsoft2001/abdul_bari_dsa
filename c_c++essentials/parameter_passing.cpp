@@ -24,6 +24,13 @@ void swap1(int *a, int *b)
 
 // call by reference example.
 
+void swap2(int &a, int &b)
+{
+    int temp;
+    temp = a;
+    a = b;
+    b = temp;
+}
 
 int main()
 {
@@ -37,6 +44,10 @@ int main()
     int a1 = 10, b1 = 20;
     swap1(&a1, &b1);                 // sharing the address to the function.
     cout << a1 << " " << b1 << endl; // since the pointer have access to the main memory - activation records. it is updated.
+
+    int a2 = 10, b2 = 20;
+    swap2(a2, b2);
+    cout << a2 << b2 << endl;
 
     return 0;
 }
